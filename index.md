@@ -1,37 +1,72 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
 
-You can use the [editor on GitHub](https://github.com/sindhu-eng/Test-Shopping-Cart/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=360, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+	<link rel="stylesheet" href="main.css">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+	
+</head>
 
-### Markdown
+<body>
+	
+	<main class="main-container" id="myData">
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+		<section class="section">
+			<h2 class="text-center">Products</h2>
+			<div class="products">
+				
+				<div class="product">
+					<img class="product__image" src="img/products/beer.jpg" alt="Beer">
+					<h2 class="product__name">Beer</h2>
+					<h3 class="product__price">6.00</h3>
+					<button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+				</div>
+				<div class="product">
+					<img class="product__image" src="img/products/energy-drink.jpg" alt="Energy Drink">
+					<h2 class="product__name">Energy Drink</h2>
+					<h3 class="product__price">5.00</h3>
+					<button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+				</div>
+				<div class="product">
+					<img class="product__image" src="img/products/juice.jpg" alt="Juice">
+					<h2 class="product__name">Juice</h2>
+					<h3 class="product__price">4.00</h3>
+					<button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+				</div>
+				<div class="product">
+					<img class="product__image" src="img/products/milk.jpg" alt="Milk">
+					<h2 class="product__name">Milk</h2>
+					<h3 class="product__price">2.50</h3>
+					<button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+				</div>
+				<div class="product">
+					<img class="product__image" src="img/products/mineral-water.jpg" alt="Mineral Water">
+					<h2 class="product__name">Mineral Water</h2>
+					<h3 class="product__price">1.00</h3>
+					<button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+				</div>
+				<div class="product">
+					<img class="product__image" src="img/products/smoothie.jpg" alt="Smoothie">
+					<h2 class="product__name">Smoothie</h2>
+					<h3 class="product__price">6.00</h3>
+					<button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+				</div>
+			</div>
+		</section>
 
-```markdown
-Syntax highlighted code block
+		<section class="section">
+			<h2 class="text-center">Cart</h2>
+			<div class="cart"></div>
+		</section>
 
-# Header 1
-## Header 2
-### Header 3
+	</main>
 
-- Bulleted
-- List
+	<script src="main.js"></script>
+	
+</body>
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sindhu-eng/Test-Shopping-Cart/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</html>
